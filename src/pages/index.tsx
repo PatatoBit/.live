@@ -6,6 +6,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Title from '../components/Title'
 import About from '../components/About'
 import Skills from '../components/Skills'
+import Contact from '../components/Contact';
 
 const Home: NextPage = () => {
   return (
@@ -17,11 +18,11 @@ const Home: NextPage = () => {
       </Head>
 
 
-      <Parallax pages={3}>
+      <Parallax pages={4}>
         <ParallaxLayer speed={1}><Title /></ParallaxLayer>
         <ParallaxLayer offset={1} speed={0.5}><About /></ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.2}><Skills/></ParallaxLayer>
-          
+        <ParallaxLayer offset={2} speed={0.5}><Skills/></ParallaxLayer>
+        <ParallaxLayer offset={3} speed={0.5}><Contact/></ParallaxLayer>
       </Parallax>  
     </div>
   )

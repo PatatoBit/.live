@@ -3,7 +3,7 @@ import React from 'react'
 
 function Title() {
   return (
-    <div className=" flex flex-col w-full h-screen items-center justify-center">
+    <div className="fullflex">
       
       <h1 className="mario text-6xl">Patato
         <span className="mario text-2xl">(Pat)</span>
