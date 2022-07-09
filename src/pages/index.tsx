@@ -12,17 +12,17 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Patato.live</title>
+        <title>patato.live</title>
         <meta name="description" content="Pat's Hideout" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
 
       <Parallax pages={4}>
-        <ParallaxLayer speed={1}><Title /></ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.5}><About /></ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.5}><Skills/></ParallaxLayer>
-        <ParallaxLayer offset={3} speed={0.5}><Contact/></ParallaxLayer>
+        <ParallaxLayer speed={0.5}><Title /></ParallaxLayer>
+        <ParallaxLayer offset={1} speed={1}><About /></ParallaxLayer>
+        <ParallaxLayer offset={2} speed={1}><Skills/></ParallaxLayer>
+        <ParallaxLayer offset={3} speed={1}><Contact/></ParallaxLayer>
       </Parallax>  
     </div>
   )

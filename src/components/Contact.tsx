@@ -3,15 +3,11 @@ import React from 'react'
 function Contact() {
   return (
     <div className="fullflex">
-      <h1 className="mario">Contacts</h1>
+      <h1 className="mario text-4xl mb-4">Contacts</h1>
 
       <div className="flex flex-row">
-        <div className="contact-card mario">
-          <a href="https://twitter.com/patatotota">Twitter</a>
-        </div>
-        <div className="contact-card mario">
-          <a href="https://github.com/pathonscript">Github</a>
-        </div>
+          <a className="contact-card mario mx-2 hover:bg-blue-400 hover:text-white hover:border-blue-400" href="https://twitter.com/patatotota"  target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a className="contact-card mario mx-2 hover:bg-slate-800 hover:text-white hover:border-slate-800" href="https://github.com/pathonscript"  target="_blank" rel="noopener noreferrer">Github</a>
       </div>
     </div>
   )

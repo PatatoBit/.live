@@ -3,6 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.mario {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.fullflex {
+  @apply flex flex-col w-full h-screen items-center justify-center;
+}
+
+.contact-card {
+  @apply border-2 border-slate-400 rounded-md py-2 px-4;
+}
 .rainbow-letters span:nth-child(10n + 1) {
   color: #ef5350;
 }
@@ -34,16 +46,3 @@
 .rainbow-letters span:nth-child(10n + 8){
   color: #ffc107;
 }
-
-.mario {
-  font-family: 'Press Start 2P', cursive;
-}
-
-.fullflex {
-  @apply flex flex-col w-full h-screen items-center justify-center;
-}
-
-.contact-card {
-  @apply border-2 border-slate-400 rounded-md py-2 px-4;
-}
-
