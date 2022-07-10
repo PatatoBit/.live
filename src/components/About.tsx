@@ -16,11 +16,11 @@ function About() {
 
   return (
     <div className="fullflex">
-      <h1 className="mario text-6xl mb-4">About me</h1>  
-      <p className="mario text-center text-2xl w-3/5">Hi, my name is Pat. I&apos;m from Thailand. I started coding since I was about 10-11.I like making fun stuffs.</p>
+      <h1 className="mario text-4xl sm:text-6xl mb-4">About me</h1>  
+      <p className="mario text-center text-xl sm:text-2xl w-4/5 sm:w-3/5">Hi, my name is Pat. I&apos;m from Thailand. I started coding since I was about 10-11.I like making fun stuffs.</p>
       
       <div>
-        <h1 className="mt-10 text-4xl text-yellow-500 mario">Current Age</h1>
+        <h1 className="mt-10 text-3xl sm:text-4xl text-yellow-500 mario">Current Age</h1>
         <h1 className="mario text-2xl text-center text-green-500">{patAge}</h1>
       </div>
     </div>

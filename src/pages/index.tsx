@@ -29,8 +29,8 @@ const Home: NextPage = () => {
 
         <ParallaxLayer
           offset={0}
-          speed={.9}
-          factor={1}
+          speed={1.1}
+          factor={2}
           style={{
             zIndex: -2,
             backgroundImage: `url(/images/bg.png)`,
@@ -40,8 +40,8 @@ const Home: NextPage = () => {
 
         <ParallaxLayer
           offset={0}
-          speed={1.5}
-          factor={1}
+          speed={1}
+          factor={2}
           style={{
             zIndex: -1,
             backgroundImage: `url(/images/chair.png)`,
