@@ -5,6 +5,7 @@
 
 
 .mario {
+  /* @apply text-white; */
   font-family: 'Press Start 2P', cursive;
 }
 
