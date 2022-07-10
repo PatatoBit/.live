@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           factor={2}
           style={{
             zIndex: -2,
-            backgroundImage: `url(https://media.discordapp.net/attachments/994587298949767188/995557702677839943/bg.png?width=901&height=676)`,
+            backgroundImage: `url(/images/bg.png)`,
             backgroundSize: 'cover',
           }}
         />
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
           factor={2}
           style={{
             zIndex: -1,
-            backgroundImage: `url(https://cdn.discordapp.com/attachments/994587298949767188/995557710076592198/FBDD0CD8-3E3A-4798-BD06-32E30255A315.png)`,
+            backgroundImage: `url(/images/chair.png)`,
             backgroundSize: 'cover',
           }}
         />
