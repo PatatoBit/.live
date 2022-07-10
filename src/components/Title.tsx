@@ -15,9 +15,9 @@ function Title() {
           <span className="text-6xl">o</span>
         </span>
 
-        <span className="mario text-2xl">(Pat)</span>
+        <span className="mario text-2xl text-white">(Pat)</span>
       </h1>
-      <h1 className="mario">I code and stuff.</h1>
+      <h1 className="mario text-white">I code and stuff.</h1>
 
     </div>
   )

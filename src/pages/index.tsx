@@ -8,7 +8,8 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact';
 
-import GameOver from '../assets/gameover.jpg';
+import bg from '../assets/bg.png'
+import chair from '../assets/chair.png'
 
 const Home: NextPage = () => {
   return (
@@ -26,17 +27,27 @@ const Home: NextPage = () => {
         <ParallaxLayer offset={2} speed={0.5}><Skills/></ParallaxLayer>
         <ParallaxLayer offset={3} speed={0.5}><Contact/></ParallaxLayer>
 
-        {/* <ParallaxLayer
+        <ParallaxLayer
+          offset={0}
+          speed={.9}
+          factor={2}
+          style={{
+            zIndex: -2,
+            backgroundImage: `url(https://media.discordapp.net/attachments/994587298949767188/995557702677839943/bg.png?width=901&height=676)`,
+            backgroundSize: 'cover',
+          }}
+        />
+
+        <ParallaxLayer
           offset={0}
           speed={1}
-          factor={4}
+          factor={2}
           style={{
-            
-            backgroundImage: `url(https://cdn.discordapp.com/attachments/891657091008315393/995486968756572180/pexels-cottonbro-4835419.jpg)`,
+            zIndex: -1,
+            backgroundImage: `url(https://cdn.discordapp.com/attachments/994587298949767188/995557710076592198/FBDD0CD8-3E3A-4798-BD06-32E30255A315.png)`,
             backgroundSize: 'cover',
-
           }}
-        /> */}
+        />
 
       </Parallax>  
     </div>
