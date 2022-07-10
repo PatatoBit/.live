@@ -1,11 +1,13 @@
+import Image from 'next/image'
 import React from 'react'
 
 
 function Title() {
   return (
     <div className="fullflex">
-      
-      <h1 className="mario">
+      <Image className="rounded-3xl" width={300} height={300} src="/images/froggy.png" alt="froggy"/>
+
+      <h1 className="mt-2 mario">
         <span className="rainbow-letters">
           <span className="text-6xl">P</span>
           <span className="text-6xl">a</span>
@@ -15,9 +17,9 @@ function Title() {
           <span className="text-6xl">o</span>
         </span>
 
-        <span className="mario text-2xl text-white">(Pat)</span>
+        <span className="mario text-2xl text-yellow-400">(Pat)</span>
       </h1>
-      <h1 className="mario text-white">I code and stuff.</h1>
+      <h1 className="mario text-2xl text-green-600">I code and stuff.</h1>
 
     </div>
   )

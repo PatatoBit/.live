@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <Head>
         <title>patato.live</title>
         <meta name="description" content="Pat's Hideout" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/froggy.png" />
       </Head>
 
 
