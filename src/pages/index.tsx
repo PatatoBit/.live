@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
 
       <Parallax pages={4}>
-        <ParallaxLayer speed={1}><Title /></ParallaxLayer>
+        <ParallaxLayer speed={.8}><Title /></ParallaxLayer>
         <ParallaxLayer offset={1} speed={0.5}><About /></ParallaxLayer>
         <ParallaxLayer offset={2} speed={0.5}><Skills/></ParallaxLayer>
         <ParallaxLayer offset={3} speed={0.5}><Contact/></ParallaxLayer>
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
         <ParallaxLayer
           offset={0}
           speed={.9}
-          factor={2}
+          factor={1}
           style={{
             zIndex: -2,
             backgroundImage: `url(/images/bg.png)`,
@@ -40,8 +40,8 @@ const Home: NextPage = () => {
 
         <ParallaxLayer
           offset={0}
-          speed={1}
-          factor={2}
+          speed={1.5}
+          factor={1}
           style={{
             zIndex: -1,
             backgroundImage: `url(/images/chair.png)`,
