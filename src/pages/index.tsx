@@ -50,6 +50,10 @@ const Home: NextPage = () => {
         />
 
       </Parallax>  
+
+      <div className="absolute bottom-0 bg-gradient-to-t w-full">
+          <h1 className="mario text-slate-500 text-center">© Copyright| Patato 2022</h1>
+      </div>
     </div>
   )
 }
