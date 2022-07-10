@@ -1,2 +1,2 @@
 - [ ] Projects
-- [ ] [Age Counter](https://ottomated.net)
+- [x] [Age Counter](https://ottomated.net)
