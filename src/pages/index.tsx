@@ -29,7 +29,7 @@ const Home: NextPage = () => {
 
         <ParallaxLayer
           offset={0}
-          speed={1.1}
+          speed={1.1 }
           factor={2}
           style={{
             zIndex: -2,

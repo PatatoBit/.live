@@ -23,6 +23,9 @@ function About() {
         <h1 className="mt-10 text-3xl sm:text-4xl text-yellow-500 mario">Current Age</h1>
         <h1 className="mario text-2xl text-center text-green-500">{patAge}</h1>
       </div>
+
+      <p className="mario text-center text-xl sm:text-2xl w-4/5 sm:w-3/5">I can speak Thai, English and some Chinese.</p>
+
     </div>
 
   )

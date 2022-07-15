@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className="fullflex">
       <h1 className="mario text-4xl sm:text-6xl mb-4">Skills</h1>
-      <div className="flex flex-col sm:flex-row w-3/4 h-3/4">
+      <div className="flex flex-col xl:flex-row w-3/4 h-3/4">
         
         <div className="flex flex-1 flex-col items-center">
           <h1 className="mario text-2xl sm:text-3xl text-yellow-500 text-center">Intermediate</h1>
